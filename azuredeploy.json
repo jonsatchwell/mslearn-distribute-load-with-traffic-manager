@@ -311,9 +311,7 @@
                         },
                         "protectedSettings": {
                             "commandToExecute": "sh setup-nginx.sh eastasia",
-                            "fileUris": [
-                                "[uri('https://raw.githubusercontent.com/stevensnicole/mslearn-distribute-load-with-traffic-manager/master/setup-nginx.sh')]"
-                            ]
+                            "fileUris": ["https://raw.githubusercontent.com/stevensnicole/mslearn-distribute-load-with-traffic-manager/master/setup-nginx.sh"]
                         }
                     },
                     "dependsOn": [
@@ -393,9 +391,7 @@
                         },
                         "protectedSettings": {
                             "commandToExecute": "sh setup-nginx.sh westus2",
-                            "fileUris": [
-                                "[uri('https://raw.githubusercontent.com/stevensnicole/mslearn-distribute-load-with-traffic-manager/master/setup-nginx.sh')]"
-                            ]
+                            "fileUris": ["https://raw.githubusercontent.com/stevensnicole/mslearn-distribute-load-with-traffic-manager/master/setup-nginx.sh"]
                         }
                     },
                     "dependsOn": [
